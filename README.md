@@ -8,34 +8,34 @@ Sara Fish, Paul Gölz, David C. Parkes, Ariel D. Procaccia, Gili Rusak, Itai Sha
 
 The following document details the columns in this dataset.
 
-* user_id: This column includes an anonymized version of the user_ids.	
+* `user_id`: This column includes an anonymized version of the user_ids.	
 
 
-* step: This column represents the order in which the participants where shown the questions.
+* `step`: This column represents the order in which the participants where shown the questions.
 
 
-* question_type: This column represents the question type for the current row. These include: "reading", "text", and "text + multiple choice".
+* `question_type`: This column represents the question type for the current row. These include: "reading", "text", and "text + multiple choice".
 
 
-* question_text: This column includes the question text.
+* `question_text`: This column includes the question text.
 
 
-* button_label: For questions with buttons, this column includes the label on the button.	
+* `button_label`: For questions with buttons, this column includes the label on the button.	
 
 
-* json_choices: For questions with choices, this column includes the labels of the distinct choices.	
+* `json_choices`: For questions with choices, this column includes the labels of the distinct choices.	
 
 
-* choice: For questions with choices, this column includes the choice that the user chose.	
+* `choice`: For questions with choices, this column includes the choice that the user chose.	
 
 
-* choice_numeric: For questions with choices, this column includes the numeric representation of the choice that the user chose.
+* `choice_numeric`: For questions with choices, this column includes the numeric representation of the choice that the user chose.
 
 
-* text: For questions with text responses, this column includes the user's text response.	
+* `text`: For questions with text responses, this column includes the user's text response.	
 
 
-* answer_date: This column includes the date that the user completed the survey.
+* `answer_date`: This column includes the date that the user completed the survey.
 
 
-* sample_type: This column includes the sample type: generation or evaluation.
+* `sample_type`: This column includes the sample type: generation or evaluation.
