@@ -1,6 +1,6 @@
 # Generative Social Choice Dataset
 
-This repository contains data we collected for the Generative Social Choice project. We ran two experiments on Prolific asking 100 individuals each about their opinions on chatbot personalization. In the first experiment, we ask individuals about their opinions on personalizing AI and then ask them to rate summary statements of other people's opinions about personalizing AI. In the second experiment, we ask individuals to rate summary statements of other people's opinions about personalizing AI.  The anonymized data is included in this repository.
+This repository contains the data we collected for the Generative Social Choice project. We ran two experiments on Prolific asking 100 individuals each about their opinions on chatbot personalization. In the first experiment, we ask individuals about their opinions on personalizing AI and then ask them to rate summary statements of other people's opinions about personalizing AI. In the second experiment, we ask individuals to rate summary statements of other people's opinions about personalizing AI.  The anonymized data is included in this repository.
 
 Sara Fish, Paul Gölz, David C. Parkes, Ariel D. Procaccia, Gili Rusak, Itai Shapira, Manuel Wüthrich, https://arxiv.org/abs/2309.01291.
 
