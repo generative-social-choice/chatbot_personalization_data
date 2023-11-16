@@ -1,10 +1,12 @@
 # Generative Social Choice Dataset
 
-This repository contains the data we collected for the Generative Social Choice project. We ran two experiments on Prolific asking 100 individuals each about their opinions on chatbot personalization. In the first experiment, we ask individuals about their opinions on personalizing AI and then ask them to rate summary statements of other people's opinions about personalizing AI. In the second experiment, we ask individuals to rate summary statements of other people's opinions about personalizing AI.  The data here has been anonymized.
+This repository contains the data we collected for the Generative Social Choice project. We ran two experiments on Prolific asking 100 individuals each about their opinions on chatbot personalization. In the first experiment (generation dataset), we ask individuals about their opinions on personalizing AI and then ask them to rate summary statements of other people's opinions about personalizing AI. In the second experiment (validation dataset), we ask individuals to rate summary statements of other people's opinions about personalizing AI.  The data here has been anonymized.
+
+This repository also includes a hand annotated version of the generation dataset according to the categories listed below.
 
 Sara Fish, Paul Gölz, David C. Parkes, Ariel D. Procaccia, Gili Rusak, Itai Shapira, Manuel Wüthrich, https://arxiv.org/abs/2309.01291.
 
-## Dataset Details
+## Dataset Details: `chatbot_personalization_data.csv`
 
 The following document details the columns in this dataset.
 
@@ -39,3 +41,18 @@ The following document details the columns in this dataset.
 
 
 * `sample_type`: This column includes the sample type: generation or evaluation.
+
+
+## Hand annotated data: `hand_annotated_generation_data.csv`
+
+We hand annotated the generation dataset. These annotations are in `hand_annotated_generation_data.csv`. A cell in this document contains a segment of the original comment that represents one of the categories below. A blank cell indicates that the category was not represented by the original comment.
+
+We hand annotated this dataset according to the following categories:
+
+* `privacy`: user is motivated by privacy, data security, data misuse
+
+* `choice`: the user suggests opt-in, opt-out, or controls on what is retained and how much personalization happens
+
+* `accuracy`: the user is concerned about information being false, biased, or misleading. This does not include concerns about a user only seeing information in their echo bubble.
+
+* `harm`: the user is concerned with the risk that information could cause immediate harm, either because the information is false in an important domain like healthcare, or because the chatbot supports the user in harmful behavior (e.g., violence, terrorism, self harm)
